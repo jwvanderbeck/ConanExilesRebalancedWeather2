@@ -1,0 +1,16 @@
+{
+	"name": "Rebalanced Weather 2",
+	"description": "[h1]MOD ID[/h1]\n1927019439\n\n[h1]Description[/h1]\nSlightly rebalances the weather handling in various climates as well as adding a new seasons system which can cause extreme temperature events\n\n[h1]Seasons[/h1]\nRebalanced Weather introduces a new system to the game world; Seasons.  Seasons change over time and each season has a slightly different effect on the world that varies by the climate of the area.  For example, during the cold season it will snow in the temperate climates rather than rain.\n\nThere are three seasons that cycle as follows; Mild -> Hot -> Mild -> Cold (repeat)\n\nIn addition to weather changes, the Hot and Cold seasons have a small chance of an \"Extreme Temperature Event\".  When these occur the temperature will rise (Hot season) or fall (Cold season) by a noticeable amount.\n\n[h1]Settings UI & Mod Control Panel Integration[/h1]\nAll settings of this mod can be modified in the Settings UI.  The settings UI requires Admin access to open, and can be opened via the command console, or the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1823412793]Mod Control Panel[/url].  To open the Settings UI via console, enter the following command:\nke * RWConfig\n\n[h1]Debug HUD[/h1]\nFor those who want to dig deeper, or do some debugging, RW2 also has a debug HUD that will indicate current status on many of the underlying state variables in real time.  To open it use the console:\nke * RW_Debug\nTo close it:\nke * RW_CloseDebug\n\n[h1]Known Issues[/h1]\nNone.  If you find any bugs please report them in the Bug Reports thread.\n\n[h1]Bug Reports & Feature Suggestions[/h1]\nPlease see the sticky threads in the discussions section.\n",
+	"changeNote": "* Added help text to Settings UI to hopefully make it more clear what values you should be entering\n* Clamp combined values for precipitation and storm so they don't exceed 100% total\n* Fix Snowstorm Chance being visible in Cold/Temperate when SnowstormEX is not enabled.  This option is only available with SnowstormEX integration\n* Fix nasty bug in weather state machine that could cause the wrong season's weather to be used\n* Fix Debug HUD to show threshold levels from current season rather than always Mild season",
+	"author": "Agathorn",
+	"authorUrl": "",
+	"versionMajor": 2,
+	"versionMinor": 1,
+	"versionBuild": 2,
+	"bRequiresLoadOnStartup": false,
+	"steamPublishedFileId": "1927019439",
+	"steamVisibility": 0,
+	"folderName": "RebalancedWeather2",
+	"revisionNumber": 188524,
+	"snapshotId": 22834
+}
